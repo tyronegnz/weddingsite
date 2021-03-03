@@ -82,18 +82,36 @@
 
   @keyframes background-animation {
     0%, 100% {
-      background-image: url(/pictures/forever.JPG);
+      background-image: url(/pictures/portrait4.jpg);
     }
 
     25% {
-      background-image: url(/pictures/forever2.JPG);
+      background-image: url(/pictures/portrait2.JPG);
     }
 
     50% {
-      background-image: url(/pictures/engagementSnow.JPG);
+      background-image: url(/pictures/portrait3.JPG);
     }
 
     75% {
-      background-image: url(/pictures/B&W.jpg);
+      background-image: url(/pictures/portrait1.JPG);
+    }
+  }
+
+  @keyframes background-animation-2 {
+    0%, 100% {
+      background-image: url(/pictures/landscape4.JPG);
+    }
+
+    25% {
+      background-image: url(/pictures/landscape3.JPG);
+    }
+
+    50% {
+      background-image: url(/pictures/landscape6.JPG);
+    }
+
+    75% {
+      background-image: url(/pictures/landscape5.JPG);
     }
   }

@@ -47,7 +47,7 @@ body {
 }
 
 main {
-  background-image: url(/pictures/flowers.jpg);
+  background-image: url(/pictures/flowersOptimizedPortrait.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,7 +61,6 @@ main {
   grid-template-areas:
     'title title title'
     'subtext subtext subtext';
-  background-image: url(/pictures/forever3.JPG);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -384,6 +383,14 @@ textarea {
 
 //MEDIA QUERIE MEDIUM
 @media only screen and (min-width: 540px) {
+  main {
+    background-image: url(/pictures/flowersOptimizedLandscape.jpg);
+  }
+
+  .hero-wrapper {
+    animation: background-animation-2 16s ease-in-out infinite;
+  }
+
   .main-content-1 {
     @include gridContent($width: 55%, $height: 500px);
 
