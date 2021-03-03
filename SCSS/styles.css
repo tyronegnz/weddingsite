@@ -148,34 +148,23 @@
     background-image: url(/pictures/portrait1.JPG);
   }
 }
-@-webkit-keyframes background-animation-2 {
+/*@keyframes background-animation-2 {
   0%, 100% {
     background-image: url(/pictures/landscape4.JPG);
   }
+
   25% {
     background-image: url(/pictures/landscape3.JPG);
   }
+
   50% {
     background-image: url(/pictures/landscape6.JPG);
   }
+
   75% {
     background-image: url(/pictures/landscape5.JPG);
   }
-}
-@keyframes background-animation-2 {
-  0%, 100% {
-    background-image: url(/pictures/landscape4.JPG);
-  }
-  25% {
-    background-image: url(/pictures/landscape3.JPG);
-  }
-  50% {
-    background-image: url(/pictures/landscape6.JPG);
-  }
-  75% {
-    background-image: url(/pictures/landscape5.JPG);
-  }
-}
+}*/
 * {
   margin: 0;
   padding: 0;
@@ -205,8 +194,6 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   height: 550px;
-  -webkit-animation: fadeIn 3s forwards 0s ease;
-          animation: fadeIn 3s forwards 0s ease;
   -webkit-animation: background-animation 16s ease-in-out infinite;
           animation: background-animation 16s ease-in-out infinite;
 }
