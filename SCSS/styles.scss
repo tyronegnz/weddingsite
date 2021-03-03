@@ -147,6 +147,10 @@ h1+p {
   @include gridContent($width: 80%, $height: 600px);
 
   grid-area: main3;
+
+  p {
+    text-align: left;
+  }
 }
 
 .text-wrapper-1 {
