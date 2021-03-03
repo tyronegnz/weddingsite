@@ -386,9 +386,9 @@ textarea {
     background-image: url(/pictures/flowersOptimizedLandscape.jpg);
   }
 
-  .hero-wrapper {
+  /*.hero-wrapper {
     animation: background-animation-2 16s ease-in-out infinite;
-  }
+  }*/
 
   .main-content-1 {
     @include gridContent($width: 55%, $height: 500px);

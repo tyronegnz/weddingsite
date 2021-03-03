@@ -489,11 +489,9 @@ textarea {
     background-image: url(/pictures/flowersOptimizedLandscape.jpg);
   }
 
-  .hero-wrapper {
-    -webkit-animation: background-animation-2 16s ease-in-out infinite;
-            animation: background-animation-2 16s ease-in-out infinite;
-  }
-
+  /*.hero-wrapper {
+    animation: background-animation-2 16s ease-in-out infinite;
+  }*/
   .main-content-1 {
     background: rgba(141, 153, 174, 0.5);
     box-shadow: 0 8px 32px 0 rgba(31, 90, 130, 0.37);
