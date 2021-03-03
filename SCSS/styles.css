@@ -122,7 +122,7 @@
 }
 @-webkit-keyframes background-animation {
   0%, 100% {
-    background-image: url(/pictures/portrait4.jpg);
+    background-image: url(/pictures/portrait1.jpg);
   }
   25% {
     background-image: url(/pictures/portrait2.JPG);
@@ -131,12 +131,12 @@
     background-image: url(/pictures/portrait3.JPG);
   }
   75% {
-    background-image: url(/pictures/portrait1.JPG);
+    background-image: url(/pictures/portrait4.JPG);
   }
 }
 @keyframes background-animation {
   0%, 100% {
-    background-image: url(/pictures/portrait4.jpg);
+    background-image: url(/pictures/portrait1.jpg);
   }
   25% {
     background-image: url(/pictures/portrait2.JPG);
@@ -145,7 +145,7 @@
     background-image: url(/pictures/portrait3.JPG);
   }
   75% {
-    background-image: url(/pictures/portrait1.JPG);
+    background-image: url(/pictures/portrait4.JPG);
   }
 }
 /*@keyframes background-animation-2 {
