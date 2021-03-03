@@ -61,12 +61,13 @@ main {
   grid-template-areas:
     'title title title'
     'subtext subtext subtext';
-  background-image: url(/pictures/engagementSnow.JPG);
+  background-image: url(/pictures/forever3.JPG);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 550px;
   animation: fadeIn 3s forwards 0s ease;
+  animation: background-animation 16s ease-in-out infinite;
 }
 
 .sub-text {

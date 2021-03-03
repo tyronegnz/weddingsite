@@ -120,6 +120,34 @@
     bottom: 100%;
   }
 }
+@-webkit-keyframes background-animation {
+  0%, 100% {
+    background-image: url(/pictures/forever.JPG);
+  }
+  25% {
+    background-image: url(/pictures/forever2.JPG);
+  }
+  50% {
+    background-image: url(/pictures/engagementSnow.JPG);
+  }
+  75% {
+    background-image: url(/pictures/B&W.jpg);
+  }
+}
+@keyframes background-animation {
+  0%, 100% {
+    background-image: url(/pictures/forever.JPG);
+  }
+  25% {
+    background-image: url(/pictures/forever2.JPG);
+  }
+  50% {
+    background-image: url(/pictures/engagementSnow.JPG);
+  }
+  75% {
+    background-image: url(/pictures/B&W.jpg);
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -145,13 +173,15 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 62px);
   grid-template-areas: "title title title" "subtext subtext subtext";
-  background-image: url(/pictures/engagementSnow.JPG);
+  background-image: url(/pictures/forever3.JPG);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 550px;
   -webkit-animation: fadeIn 3s forwards 0s ease;
           animation: fadeIn 3s forwards 0s ease;
+  -webkit-animation: background-animation 16s ease-in-out infinite;
+          animation: background-animation 16s ease-in-out infinite;
 }
 
 .sub-text {

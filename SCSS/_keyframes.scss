@@ -79,3 +79,21 @@
       bottom: 100%;
     }
   }
+
+  @keyframes background-animation {
+    0%, 100% {
+      background-image: url(/pictures/forever.JPG);
+    }
+
+    25% {
+      background-image: url(/pictures/forever2.JPG);
+    }
+
+    50% {
+      background-image: url(/pictures/engagementSnow.JPG);
+    }
+
+    75% {
+      background-image: url(/pictures/B&W.jpg);
+    }
+  }
