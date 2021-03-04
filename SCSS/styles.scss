@@ -65,7 +65,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   height: 550px;
-  animation: background-animation 16s ease-in-out infinite;
+  animation: background-animation 16s ease-in-out -3s infinite;
 }
 
 .sub-text {
@@ -91,7 +91,7 @@ main {
     'main2'
     'main3';
   padding: 50px 0px 50px 0px;
-  gap: 50px;
+  grid-gap: 50px;
 
   h1 {
     background-color: $cardsColor;
@@ -181,7 +181,7 @@ h1+p {
   background-color: $backgroundTextColor;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  grid-gap: 30px;
 }
 
 
@@ -386,9 +386,9 @@ textarea {
     background-image: url(/pictures/flowersOptimizedLandscape.jpg);
   }
 
-  /*.hero-wrapper {
+  .hero-wrapper {
     animation: background-animation-2 16s ease-in-out infinite;
-  }*/
+  }
 
   .main-content-1 {
     @include gridContent($width: 55%, $height: 500px);
@@ -458,7 +458,7 @@ textarea {
     grid-template-areas:
       'main1 main2 main3';
     padding: 50px 0px 50px 0px;
-    gap: 0px;
+    grid-gap: 0px;
 
     ul {
       padding: 30px;;

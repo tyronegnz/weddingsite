@@ -148,23 +148,34 @@
     background-image: url(/pictures/portrait4.JPG);
   }
 }
-/*@keyframes background-animation-2 {
+@-webkit-keyframes background-animation-2 {
   0%, 100% {
     background-image: url(/pictures/landscape4.JPG);
   }
-
   25% {
     background-image: url(/pictures/landscape3.JPG);
   }
-
   50% {
     background-image: url(/pictures/landscape6.JPG);
   }
-
   75% {
     background-image: url(/pictures/landscape5.JPG);
   }
-}*/
+}
+@keyframes background-animation-2 {
+  0%, 100% {
+    background-image: url(/pictures/landscape4.JPG);
+  }
+  25% {
+    background-image: url(/pictures/landscape3.JPG);
+  }
+  50% {
+    background-image: url(/pictures/landscape6.JPG);
+  }
+  75% {
+    background-image: url(/pictures/landscape5.JPG);
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -194,8 +205,8 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   height: 550px;
-  -webkit-animation: background-animation 16s ease-in-out infinite;
-          animation: background-animation 16s ease-in-out infinite;
+  -webkit-animation: background-animation 16s ease-in-out -3s infinite;
+          animation: background-animation 16s ease-in-out -3s infinite;
 }
 
 .sub-text {
@@ -489,9 +500,11 @@ textarea {
     background-image: url(/pictures/flowersOptimizedLandscape.jpg);
   }
 
-  /*.hero-wrapper {
-    animation: background-animation-2 16s ease-in-out infinite;
-  }*/
+  .hero-wrapper {
+    -webkit-animation: background-animation-2 16s ease-in-out infinite;
+            animation: background-animation-2 16s ease-in-out infinite;
+  }
+
   .main-content-1 {
     background: rgba(141, 153, 174, 0.5);
     box-shadow: 0 8px 32px 0 rgba(31, 90, 130, 0.37);
