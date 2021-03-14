@@ -231,7 +231,7 @@ main {
   grid-template-columns: repeat(1, 1fr);
   grid-template-areas: "main1" "main2" "main3";
   padding: 50px 0px 50px 0px;
-  gap: 50px;
+  grid-gap: 50px;
 }
 .main-container h1 {
   background-color: #8d99ae;
@@ -321,7 +321,7 @@ h1 + p {
   background-color: #fec5bb;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  grid-gap: 30px;
 }
 .text-wrapper-1 .animation-h1 {
   font-family: "Quicksand", serif;
@@ -364,6 +364,7 @@ iframe {
   margin: 0 auto;
   border-radius: 10px;
   justify-self: center;
+  width: 80%;
 }
 
 .login-box {
@@ -572,10 +573,10 @@ textarea {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "main1 main2 main3";
     padding: 50px 0px 50px 0px;
-    gap: 0px;
+    grid-gap: 0px;
   }
   .main-container ul {
-    padding: 30px;
+    padding: 50px;
   }
 
   .login-box {
