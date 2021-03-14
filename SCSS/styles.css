@@ -122,58 +122,46 @@
 }
 @-webkit-keyframes background-animation {
   0%, 100% {
-    background-image: url(/pictures/portrait1.jpg);
-  }
-  25% {
-    background-image: url(/pictures/portrait2.JPG);
+    background-image: url(/pictures/portrait4.JPG);
   }
   50% {
-    background-image: url(/pictures/portrait3.JPG);
+    background-image: url(/pictures/portrait5.JPG);
   }
   75% {
-    background-image: url(/pictures/portrait4.JPG);
+    background-image: url(/pictures/portrait2.JPG);
   }
 }
 @keyframes background-animation {
   0%, 100% {
-    background-image: url(/pictures/portrait1.jpg);
-  }
-  25% {
-    background-image: url(/pictures/portrait2.JPG);
+    background-image: url(/pictures/portrait4.JPG);
   }
   50% {
-    background-image: url(/pictures/portrait3.JPG);
+    background-image: url(/pictures/portrait5.JPG);
   }
   75% {
-    background-image: url(/pictures/portrait4.JPG);
+    background-image: url(/pictures/portrait2.JPG);
   }
 }
 @-webkit-keyframes background-animation-2 {
   0%, 100% {
-    background-image: url(/pictures/landscape4.JPG);
-  }
-  25% {
-    background-image: url(/pictures/landscape3.JPG);
-  }
-  50% {
     background-image: url(/pictures/landscape6.JPG);
   }
+  50% {
+    background-image: url(/pictures/landscape7.JPG);
+  }
   75% {
-    background-image: url(/pictures/landscape5.JPG);
+    background-image: url(/pictures/landscape1.JPG);
   }
 }
 @keyframes background-animation-2 {
   0%, 100% {
-    background-image: url(/pictures/landscape4.JPG);
-  }
-  25% {
-    background-image: url(/pictures/landscape3.JPG);
-  }
-  50% {
     background-image: url(/pictures/landscape6.JPG);
   }
+  50% {
+    background-image: url(/pictures/landscape7.JPG);
+  }
   75% {
-    background-image: url(/pictures/landscape5.JPG);
+    background-image: url(/pictures/landscape1.JPG);
   }
 }
 * {
